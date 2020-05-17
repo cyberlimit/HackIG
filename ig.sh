@@ -63,7 +63,7 @@ echo
 echo
 
 ;;
-3) python2 init.py
+3) python hackinsta.py
 
 ;;
 

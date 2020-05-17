@@ -25,8 +25,11 @@ echo "   My Tim : Wisnu | panjull                    " | lolcat
 echo "   youtube: Cyber Limit                        " | lolcat 
 echo "   github : https://github.com/cyberlimit      " | lolcat
 echo "  <=====================[]====================>" | lolcat
+echo "  <=====================[]====================>" | lolcat
+echo "  <=====================[]====================>" | lolcat
 
-echo ""
+sleep 1#################################################### CTRL + C###################################################trap ctrl_c INTctrl_c() {clearclearsleep 1exit}
+
 echo -e $b "1. Pasword TXT${enda}";
 echo -e $b "2. Proxy TXT${enda}";
 echo -e $b "3. Langsung Crack${enda}";

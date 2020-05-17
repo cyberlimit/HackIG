@@ -19,32 +19,13 @@ cyan='\e[1;36m'
 red='\e[1;31m'
 
 
-figlet "CyberLimit" 
-echo ""
-echo "  <=====================[]====================>" 
-echo "            tools by Cyber Limit               " 
-echo "   My Tim : Wisnu | panjull                    " 
-echo "   youtube: Cyber Limit                        " 
-echo "   github : https://github.com/cyberlimit      " 
-echo "  <=====================[]====================>" 
+echo "  <=====================[]====================>" | lolcat
+echo "            tools by Cyber Limit               " | lolcat
+echo "   My Tim : Wisnu | panjull                    " | lolcat
+echo "   youtube: Cyber Limit                        " | lolcat 
+echo "   github : https://github.com/cyberlimit      " | lolcat
+echo "  <=====================[]====================>" | lolcat
 
-sleep 1
-
-###################################################
-# CTRL + C
-###################################################
-trap ctrl_c INT
-ctrl_c() {
-clear
-clear
-sleep 1
-exit
-}
-
-
-lagi=1
-while [ $lagi -lt 6 ];
-do
 echo ""
 echo -e $b "1. Pasword TXT${enda}";
 echo -e $b "2. Proxy TXT${enda}";

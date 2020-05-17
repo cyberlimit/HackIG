@@ -49,9 +49,9 @@ while [ $lagi -lt 6 ];
 do
 echo ""
 echo -e "\e[31;1m $b "1. Pasword TXT${enda}";
-echo -e "\e[31;1m $b "2. Proxy TXT${enda}";
-echo -e "\e[31;1m $b "3. Langsung Crack${enda}";
-echo -e "\e[31;1m $b "00. Exit${enda}";
+echo -e $b "2. Proxy TXT${enda}";
+echo -e $b "3. Langsung Crack${enda}";
+echo -e $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
 case $pil in

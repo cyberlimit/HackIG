@@ -18,18 +18,32 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
+cowsay -f eyes "Termux.id" | lolcat
+figlet -f slant "Termux.id" | lolcat
+echo -e "\e[32;1m  <=====================[]====================>" | lolcat
+echo -e "\e[1;36m         Tools By Cyber Limit                  " | lolcat
+echo -e "\e[1;31m    Nomer Me : 089614686780                    " | lolcat
+echo -e "\e[1;36m   Youtube   : Cyber Limit                     " | lolcat 
+echo -e "\e[32;1m  <=====================[]====================>" | lolcat
 
-echo "  <=====================[]====================>" | lolcat
-echo "            tools by Cyber Limit               " | lolcat
-echo "   My Tim : Wisnu | panjull                    " | lolcat
-echo "   youtube: Cyber Limit                        " | lolcat 
-echo "   github : https://github.com/cyberlimit      " | lolcat
-echo "  <=====================[]====================>" | lolcat
-echo "  <=====================[]====================>" | lolcat
-echo "  <=====================[]====================>" | lolcat
+sleep 1
 
-sleep 1#################################################### CTRL + C###################################################trap ctrl_c INTctrl_c() {clearclearsleep 1exit}
+###################################################
+# CTRL + C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+clear
+sleep 1
+exit
+}
 
+
+lagi=1
+while [ $lagi -lt 6 ];
+do
+echo ""
 echo -e $b "1. Pasword TXT${enda}";
 echo -e $b "2. Proxy TXT${enda}";
 echo -e $b "3. Langsung Crack${enda}";

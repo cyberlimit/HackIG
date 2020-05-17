@@ -18,14 +18,15 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-cowsay -f eyes "Termux.id" | lolcat
-figlet -f slant "Termux.id" | lolcat
-echo "  <=====================[]====================>" | lolcat
-echo "            tools by Cyber Limit               " | lolcat
-echo "   My Tim : Wisnu | panjull                    " | lolcat
-echo "   youtube: Cyber Limit                        " | lolcat
-echo "   github : https://github.com/cyberlimit      " | lolcat
-echo "  <=====================[]====================>" | lolcat
+
+figlet "CyberLimit" 
+echo ""
+echo "  <=====================[]====================>" 
+echo "            tools by Cyber Limit               " 
+echo "   My Tim : Wisnu | panjull                    " 
+echo "   youtube: Cyber Limit                        " 
+echo "   github : https://github.com/cyberlimit      " 
+echo "  <=====================[]====================>" 
 
 sleep 1
 

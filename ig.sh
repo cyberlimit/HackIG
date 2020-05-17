@@ -21,10 +21,10 @@ red='\e[1;31m'
 cowsay -f eyes "Termux.id" | lolcat
 figlet -f slant "Termux.id" | lolcat
 echo "  <=====================[]====================>" | lolcat
-echo "            tools by Cyber Limit          " | lolcat
-echo "   My Tim : Wisnu | panjull " | lolcat
-echo "   youtube: Cyber Limit " | lolcat
-echo "   github : https://github.com/cyberlimit" | lolcat
+echo "            tools by Cyber Limit               " | lolcat
+echo "   My Tim : Wisnu | panjull                    " | lolcat
+echo "   youtube: Cyber Limit                        " | lolcat
+echo "   github : https://github.com/cyberlimit      " | lolcat
 echo "  <=====================[]====================>" | lolcat
 
 sleep 1

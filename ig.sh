@@ -18,13 +18,17 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-cowsay -f eyes "Termux.id" | lolcat
-figlet -f slant "Termux.id" | lolcat
+cowsay -f eyes "CyberLimit" | lolcat
+figlet -f slant "CyberLimit" | lolcat
 echo -e "\e[32;1m  <=====================[]====================>" | lolcat
 echo -e "\e[1;36m         Tools By Cyber Limit                  " | lolcat
 echo -e "\e[1;31m    Nomer Me : 089614686780                    " | lolcat
 echo -e "\e[1;36m   Youtube   : Cyber Limit                     " | lolcat 
+echo -e "\e[1;36m   My Tim    : Wisnu | panjull                 " | lolcat
 echo -e "\e[32;1m  <=====================[]====================>" | lolcat
+echo -e "\e[31;1mHargai Yang Membuat Tools\n\tKarna Memakai Tidak Semudah Memakai"
+echo ""
+echo ""
 
 sleep 1
 
@@ -44,10 +48,10 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1. Pasword TXT${enda}";
-echo -e $b "2. Proxy TXT${enda}";
-echo -e $b "3. Langsung Crack${enda}";
-echo -e $b "00. Exit${enda}";
+echo -e "\e[31;1m $b "1. Pasword TXT${enda}";
+echo -e "\e[31;1m $b "2. Proxy TXT${enda}";
+echo -e "\e[31;1m $b "3. Langsung Crack${enda}";
+echo -e "\e[31;1m $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
 case $pil in

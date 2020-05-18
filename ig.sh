@@ -48,22 +48,19 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1. Pasword TXT${enda}";
-echo -e $b "2. Proxy TXT${enda}";
-echo -e $b "3. Langsung Crack${enda}";
+echo -e $b "1. Proxy TXT${enda}";
+echo -e $b "2. Langsung Crack${enda}";
 echo -e $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
-case $pil in
-1) nano abc.txt
+case $pil in 
+
+;;
+1) nano abcd.txt
 echo
 
 ;;
-2) nano abcd.txt
-echo
-
-;;
-3) python hackinsta.py
+2) python2 unit.py
 
 ;;
 
